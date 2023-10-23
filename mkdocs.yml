@@ -9,6 +9,7 @@ copyright: Copyright &copy; 2023 <a href="https://github.com/ZhouTimeMachine" ta
 nav:
   - Home: index.md
   - Environment: latex.md
+  - Math Formula: symbol.md
   - Coursework (1): hw1.md
   - Coursework (2): hw2.md
   - Coursework (3): hw3.md

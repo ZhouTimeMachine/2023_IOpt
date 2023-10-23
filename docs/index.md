@@ -7,6 +7,7 @@
 ## 章节链接
 
 - [Environment](latex.md): 推荐使用的作业环境
+- [Math Formula](symbol.md): 常用数学环境和数学符号
 - [Coursework (1)](hw1.md): 第一次作业的说明
 - [Coursework (2)](hw2.md): 第二次作业的说明
 - [Coursework (3)](hw3.md): 第三次作业的说明
