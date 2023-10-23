@@ -1,0 +1,4 @@
+site
+*.exe
+*.c
+.vscode
