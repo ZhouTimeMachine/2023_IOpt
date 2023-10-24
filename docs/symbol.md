@@ -60,6 +60,8 @@
     - 这种 `\left \right` 的方法也同理可应用于 `() [] ||` 等
 - 梯度算子 $\nabla$：`\nabla`
 - 正三角形 $\Delta$：`\Delta`
+- 由特征值构成的对焦矩阵 $\Lambda$：`\Lambda`
+- 最值 $\max, \min$，确界 $\sup, \inf$：`\max`, `\min`, `\sup`, `\inf`
 
 ## 快捷输入常用数学符号
 
