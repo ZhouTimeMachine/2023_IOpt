@@ -4,6 +4,14 @@
 
 Exercise 1-3，$f$ 不一定一阶可微；Exercise 5-7，默认 $f$ 一阶连续可微。
 
+$f$ 不一定一阶可微，则使用一般凸函数的定义：$\mathrm{dom} f$ 是凸集，且 $\forall x, y \in \mathrm{dom} f$，$\alpha \in [0, 1]$，有
+
+$$
+    f(\lambda x + (1 - \lambda)y) \leqslant \lambda f(x) + (1 - \lambda) f(y)
+$$
+
+如果能力有限，可以处理为一阶可微或者二阶可微，评分时会酌情处理。
+
 ## Exercise 3
 
 注意分别取 inf 是可能比一起取 inf 更小的，即
@@ -14,7 +22,7 @@ $$
 
 考虑实数域上，如果 $\inf f(x) \neq -\infty$，那么可以取到一个 non-decreasing 的序列 $x_n$，使得 $\lim\limits_{n\to \infty} f(x_n) = \inf f(x)$。可以参考一下。
 
-如果能力有限，可以处理为 $\exists x_0$ 使得 $f(x_0) = \inf f(x)$，但优先尝试作为 $\inf$ 处理。
+如果能力有限，可以处理为 $\exists x_0$ 使得 $f(x_0) = \inf f(x)$，评分时会酌情处理。
 
 ## Exercise 4
 
