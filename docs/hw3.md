@@ -12,6 +12,12 @@ $$
 
 如果能力有限，可以处理为一阶可微或者二阶可微，评分时会酌情处理。
 
+## Exercise 1
+
+注意 $I$ 不一定有限，甚至不一定可数，不能用 $f_1$, ..., $f_n$ 去描述，也不能用数学归纳法可数地去考虑。
+
+如果能力有限，可以处理为可数或者有限，评分时会酌情处理。
+
 ## Exercise 3
 
 注意分别取 inf 是可能比一起取 inf 更小的，即
@@ -20,7 +26,7 @@ $$
 \inf_{y\in Y} f(x_1,y) + \inf_{y\in Y} f(x_2,y) \leqslant \inf_{y\in Y} [ f(x_1,y)+f(x_2,y) ]
 $$
 
-考虑实数域上，如果 $\inf f(x) \neq -\infty$，那么可以取到一个 non-decreasing 的序列 $x_n$，使得 $\lim\limits_{n\to \infty} f(x_n) = \inf f(x)$。可以参考一下。
+考虑实数域上，如果 $\inf f(x) \neq -\infty$，那么可以取到一个 non-increasing 的序列 $f(x_n)$，使得 $\lim\limits_{n\to \infty} f(x_n) = \inf f(x)$。可以参考一下。
 
 如果能力有限，可以处理为 $\exists x_0$ 使得 $f(x_0) = \inf f(x)$，评分时会酌情处理。
 

@@ -65,6 +65,8 @@
 
 ## 快捷输入常用数学符号
 
+### 自定义 `\newcommand`
+
 有的数学符号比较长，但是经常会输入，比如说 `\mathrm{d}`，每次都打一遍太浪费时间。
 
 这时候常常使用自定义命令的方法，类似于 C 语言中的 `#define`，我们可以把 `\mathrm{d}` 定义为 `\di`。在所有 `\usepackage` 的后面，加入如下命令
@@ -98,3 +100,25 @@
 $$
     \frac{\partial f}{\partial x_1}
 $$
+
+### 使用别的宏包
+
+一些宏包会包括许多好用的宏，可以认为是它帮你进行了很多 `\newcommand`。
+
+可以根据自己的需求选择合适的宏包，推荐可以使用 physics 宏包，只需要
+
+```latex
+\usepackage{physics}
+```
+
+就可以使用
+
+- 微分的 $\mathrm{d}$：`\dd`
+- 求导 $\frac{\mathrm d f}{\mathrm dx}$：`\dv{f}{x}`
+- 偏导 $\frac{\partial f}{\partial x}$：`\pdv{f}{x}`
+- 混合偏导 $\frac{\partial^2 f}{\partial x\partial y}$：`\pdv{f}{x}{y}`
+- 范数 $\|a\|$：`\norm{a}` (自动调整尺寸，相当于 `\left\| a \right\|`)
+- 绝对值 $|a|$：`\abs{a}` (自动调整尺寸)
+- 梯度算子 $\nabla$：`\grad`
+- 向量加粗 $\bm{a}$：`\vb{a}`
+- ......
